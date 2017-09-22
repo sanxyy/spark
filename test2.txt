@@ -1,0 +1,12 @@
+
+kubectl Deployment  using kubectl command
+
+(1) Deploy a container with local image
+
+kubectl run my-web --image=san/web --image-pull-policy=Never --port=9999
+
+(2) Scale up replication
+
+kubectl scale deployments/my-web --replicas=3
+
+(3) Expose 
