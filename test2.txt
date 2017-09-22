@@ -11,4 +11,6 @@ kubectl scale deployments/my-web --replicas=3
 
 (3) Expose 
 
+(4) test it !
+
 (5) deploy to production
