@@ -10,3 +10,5 @@ kubectl run my-web --image=san/web --image-pull-policy=Never --port=9999
 kubectl scale deployments/my-web --replicas=3
 
 (3) Expose 
+
+(5) deploy to production
